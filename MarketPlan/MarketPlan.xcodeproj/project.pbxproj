@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47F64F411CC606BC00C691F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F401CC606BC00C691F4 /* main.m */; };
+		47F64F441CC606BC00C691F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F431CC606BC00C691F4 /* AppDelegate.m */; };
+		47F64F471CC606BC00C691F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F461CC606BC00C691F4 /* ViewController.m */; };
+		47F64F4A1CC606BC00C691F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F64F481CC606BC00C691F4 /* Main.storyboard */; };
+		47F64F4C1CC606BC00C691F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F64F4B1CC606BC00C691F4 /* Assets.xcassets */; };
+		47F64F4F1CC606BC00C691F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47F64F4D1CC606BC00C691F4 /* LaunchScreen.storyboard */; };
+		47F64F5A1CC606BC00C691F4 /* MarketPlanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F591CC606BC00C691F4 /* MarketPlanTests.m */; };
+		47F64F651CC606BC00C691F4 /* MarketPlanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F641CC606BC00C691F4 /* MarketPlanUITests.m */; };
+		47F64F8B1CC607C700C691F4 /* DishCyclePeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F761CC607C700C691F4 /* DishCyclePeriod.m */; };
+		47F64F8C1CC607C700C691F4 /* MarketActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F781CC607C700C691F4 /* MarketActivity.m */; };
+		47F64F8D1CC607C700C691F4 /* MarketActivityDish.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F7A1CC607C700C691F4 /* MarketActivityDish.m */; };
+		47F64F8E1CC607C700C691F4 /* MarketActivityRule.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F7C1CC607C700C691F4 /* MarketActivityRule.m */; };
+		47F64F8F1CC607C700C691F4 /* MarketActivitySendInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F7E1CC607C700C691F4 /* MarketActivitySendInfo.m */; };
+		47F64F901CC607C700C691F4 /* MarketActivityWeekDay.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F801CC607C700C691F4 /* MarketActivityWeekDay.m */; };
+		47F64F911CC607C700C691F4 /* MarketDynamicCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F821CC607C700C691F4 /* MarketDynamicCondition.m */; };
+		47F64F921CC607C700C691F4 /* MarketPlan.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F841CC607C700C691F4 /* MarketPlan.m */; };
+		47F64F931CC607C700C691F4 /* MarketPlanCommerciaRel.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F64F861CC607C700C691F4 /* MarketPlanCommerciaRel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47F64F561CC606BC00C691F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F64F341CC606BC00C691F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F64F3B1CC606BC00C691F4;
+			remoteInfo = MarketPlan;
+		};
+		47F64F611CC606BC00C691F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47F64F341CC606BC00C691F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47F64F3B1CC606BC00C691F4;
+			remoteInfo = MarketPlan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47F64F3C1CC606BC00C691F4 /* MarketPlan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarketPlan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F64F401CC606BC00C691F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47F64F421CC606BC00C691F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47F64F431CC606BC00C691F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47F64F451CC606BC00C691F4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47F64F461CC606BC00C691F4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47F64F491CC606BC00C691F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47F64F4B1CC606BC00C691F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47F64F4E1CC606BC00C691F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47F64F501CC606BC00C691F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F64F551CC606BC00C691F4 /* MarketPlanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketPlanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F64F591CC606BC00C691F4 /* MarketPlanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketPlanTests.m; sourceTree = "<group>"; };
+		47F64F5B1CC606BC00C691F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F64F601CC606BC00C691F4 /* MarketPlanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarketPlanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47F64F641CC606BC00C691F4 /* MarketPlanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketPlanUITests.m; sourceTree = "<group>"; };
+		47F64F661CC606BC00C691F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47F64F751CC607C700C691F4 /* DishCyclePeriod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishCyclePeriod.h; sourceTree = "<group>"; };
+		47F64F761CC607C700C691F4 /* DishCyclePeriod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishCyclePeriod.m; sourceTree = "<group>"; };
+		47F64F771CC607C700C691F4 /* MarketActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketActivity.h; sourceTree = "<group>"; };
+		47F64F781CC607C700C691F4 /* MarketActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketActivity.m; sourceTree = "<group>"; };
+		47F64F791CC607C700C691F4 /* MarketActivityDish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketActivityDish.h; sourceTree = "<group>"; };
+		47F64F7A1CC607C700C691F4 /* MarketActivityDish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketActivityDish.m; sourceTree = "<group>"; };
+		47F64F7B1CC607C700C691F4 /* MarketActivityRule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketActivityRule.h; sourceTree = "<group>"; };
+		47F64F7C1CC607C700C691F4 /* MarketActivityRule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketActivityRule.m; sourceTree = "<group>"; };
+		47F64F7D1CC607C700C691F4 /* MarketActivitySendInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketActivitySendInfo.h; sourceTree = "<group>"; };
+		47F64F7E1CC607C700C691F4 /* MarketActivitySendInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketActivitySendInfo.m; sourceTree = "<group>"; };
+		47F64F7F1CC607C700C691F4 /* MarketActivityWeekDay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketActivityWeekDay.h; sourceTree = "<group>"; };
+		47F64F801CC607C700C691F4 /* MarketActivityWeekDay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketActivityWeekDay.m; sourceTree = "<group>"; };
+		47F64F811CC607C700C691F4 /* MarketDynamicCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketDynamicCondition.h; sourceTree = "<group>"; };
+		47F64F821CC607C700C691F4 /* MarketDynamicCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketDynamicCondition.m; sourceTree = "<group>"; };
+		47F64F831CC607C700C691F4 /* MarketPlan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPlan.h; sourceTree = "<group>"; };
+		47F64F841CC607C700C691F4 /* MarketPlan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketPlan.m; sourceTree = "<group>"; };
+		47F64F851CC607C700C691F4 /* MarketPlanCommerciaRel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MarketPlanCommerciaRel.h; sourceTree = "<group>"; };
+		47F64F861CC607C700C691F4 /* MarketPlanCommerciaRel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MarketPlanCommerciaRel.m; sourceTree = "<group>"; };
+		47F64F891CC607C700C691F4 /* SyncDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SyncDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47F64F391CC606BC00C691F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F64F521CC606BC00C691F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F64F5D1CC606BC00C691F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47F64F331CC606BC00C691F4 = {
+			isa = PBXGroup;
+			children = (
+				47F64F3E1CC606BC00C691F4 /* MarketPlan */,
+				47F64F581CC606BC00C691F4 /* MarketPlanTests */,
+				47F64F631CC606BC00C691F4 /* MarketPlanUITests */,
+				47F64F3D1CC606BC00C691F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47F64F3D1CC606BC00C691F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47F64F3C1CC606BC00C691F4 /* MarketPlan.app */,
+				47F64F551CC606BC00C691F4 /* MarketPlanTests.xctest */,
+				47F64F601CC606BC00C691F4 /* MarketPlanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47F64F3E1CC606BC00C691F4 /* MarketPlan */ = {
+			isa = PBXGroup;
+			children = (
+				47F64F721CC6073300C691F4 /* Class */,
+				47F64F421CC606BC00C691F4 /* AppDelegate.h */,
+				47F64F431CC606BC00C691F4 /* AppDelegate.m */,
+				47F64F451CC606BC00C691F4 /* ViewController.h */,
+				47F64F461CC606BC00C691F4 /* ViewController.m */,
+				47F64F481CC606BC00C691F4 /* Main.storyboard */,
+				47F64F4B1CC606BC00C691F4 /* Assets.xcassets */,
+				47F64F4D1CC606BC00C691F4 /* LaunchScreen.storyboard */,
+				47F64F501CC606BC00C691F4 /* Info.plist */,
+				47F64F3F1CC606BC00C691F4 /* Supporting Files */,
+			);
+			path = MarketPlan;
+			sourceTree = "<group>";
+		};
+		47F64F3F1CC606BC00C691F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47F64F401CC606BC00C691F4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47F64F581CC606BC00C691F4 /* MarketPlanTests */ = {
+			isa = PBXGroup;
+			children = (
+				47F64F591CC606BC00C691F4 /* MarketPlanTests.m */,
+				47F64F5B1CC606BC00C691F4 /* Info.plist */,
+			);
+			path = MarketPlanTests;
+			sourceTree = "<group>";
+		};
+		47F64F631CC606BC00C691F4 /* MarketPlanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47F64F641CC606BC00C691F4 /* MarketPlanUITests.m */,
+				47F64F661CC606BC00C691F4 /* Info.plist */,
+			);
+			path = MarketPlanUITests;
+			sourceTree = "<group>";
+		};
+		47F64F721CC6073300C691F4 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				47F64F751CC607C700C691F4 /* DishCyclePeriod.h */,
+				47F64F761CC607C700C691F4 /* DishCyclePeriod.m */,
+				47F64F771CC607C700C691F4 /* MarketActivity.h */,
+				47F64F781CC607C700C691F4 /* MarketActivity.m */,
+				47F64F791CC607C700C691F4 /* MarketActivityDish.h */,
+				47F64F7A1CC607C700C691F4 /* MarketActivityDish.m */,
+				47F64F7B1CC607C700C691F4 /* MarketActivityRule.h */,
+				47F64F7C1CC607C700C691F4 /* MarketActivityRule.m */,
+				47F64F7D1CC607C700C691F4 /* MarketActivitySendInfo.h */,
+				47F64F7E1CC607C700C691F4 /* MarketActivitySendInfo.m */,
+				47F64F7F1CC607C700C691F4 /* MarketActivityWeekDay.h */,
+				47F64F801CC607C700C691F4 /* MarketActivityWeekDay.m */,
+				47F64F811CC607C700C691F4 /* MarketDynamicCondition.h */,
+				47F64F821CC607C700C691F4 /* MarketDynamicCondition.m */,
+				47F64F831CC607C700C691F4 /* MarketPlan.h */,
+				47F64F841CC607C700C691F4 /* MarketPlan.m */,
+				47F64F851CC607C700C691F4 /* MarketPlanCommerciaRel.h */,
+				47F64F861CC607C700C691F4 /* MarketPlanCommerciaRel.m */,
+				47F64F891CC607C700C691F4 /* SyncDefine.h */,
+			);
+			name = Class;
+			path = ../../Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47F64F3B1CC606BC00C691F4 /* MarketPlan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F64F691CC606BC00C691F4 /* Build configuration list for PBXNativeTarget "MarketPlan" */;
+			buildPhases = (
+				47F64F381CC606BC00C691F4 /* Sources */,
+				47F64F391CC606BC00C691F4 /* Frameworks */,
+				47F64F3A1CC606BC00C691F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarketPlan;
+			productName = MarketPlan;
+			productReference = 47F64F3C1CC606BC00C691F4 /* MarketPlan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47F64F541CC606BC00C691F4 /* MarketPlanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F64F6C1CC606BC00C691F4 /* Build configuration list for PBXNativeTarget "MarketPlanTests" */;
+			buildPhases = (
+				47F64F511CC606BC00C691F4 /* Sources */,
+				47F64F521CC606BC00C691F4 /* Frameworks */,
+				47F64F531CC606BC00C691F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F64F571CC606BC00C691F4 /* PBXTargetDependency */,
+			);
+			name = MarketPlanTests;
+			productName = MarketPlanTests;
+			productReference = 47F64F551CC606BC00C691F4 /* MarketPlanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47F64F5F1CC606BC00C691F4 /* MarketPlanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47F64F6F1CC606BC00C691F4 /* Build configuration list for PBXNativeTarget "MarketPlanUITests" */;
+			buildPhases = (
+				47F64F5C1CC606BC00C691F4 /* Sources */,
+				47F64F5D1CC606BC00C691F4 /* Frameworks */,
+				47F64F5E1CC606BC00C691F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47F64F621CC606BC00C691F4 /* PBXTargetDependency */,
+			);
+			name = MarketPlanUITests;
+			productName = MarketPlanUITests;
+			productReference = 47F64F601CC606BC00C691F4 /* MarketPlanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47F64F341CC606BC00C691F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Mac;
+				TargetAttributes = {
+					47F64F3B1CC606BC00C691F4 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					47F64F541CC606BC00C691F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 47F64F3B1CC606BC00C691F4;
+					};
+					47F64F5F1CC606BC00C691F4 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 47F64F3B1CC606BC00C691F4;
+					};
+				};
+			};
+			buildConfigurationList = 47F64F371CC606BC00C691F4 /* Build configuration list for PBXProject "MarketPlan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47F64F331CC606BC00C691F4;
+			productRefGroup = 47F64F3D1CC606BC00C691F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47F64F3B1CC606BC00C691F4 /* MarketPlan */,
+				47F64F541CC606BC00C691F4 /* MarketPlanTests */,
+				47F64F5F1CC606BC00C691F4 /* MarketPlanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47F64F3A1CC606BC00C691F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F64F4F1CC606BC00C691F4 /* LaunchScreen.storyboard in Resources */,
+				47F64F4C1CC606BC00C691F4 /* Assets.xcassets in Resources */,
+				47F64F4A1CC606BC00C691F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F64F531CC606BC00C691F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F64F5E1CC606BC00C691F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47F64F381CC606BC00C691F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F64F8E1CC607C700C691F4 /* MarketActivityRule.m in Sources */,
+				47F64F901CC607C700C691F4 /* MarketActivityWeekDay.m in Sources */,
+				47F64F471CC606BC00C691F4 /* ViewController.m in Sources */,
+				47F64F8B1CC607C700C691F4 /* DishCyclePeriod.m in Sources */,
+				47F64F8C1CC607C700C691F4 /* MarketActivity.m in Sources */,
+				47F64F8D1CC607C700C691F4 /* MarketActivityDish.m in Sources */,
+				47F64F441CC606BC00C691F4 /* AppDelegate.m in Sources */,
+				47F64F411CC606BC00C691F4 /* main.m in Sources */,
+				47F64F911CC607C700C691F4 /* MarketDynamicCondition.m in Sources */,
+				47F64F931CC607C700C691F4 /* MarketPlanCommerciaRel.m in Sources */,
+				47F64F921CC607C700C691F4 /* MarketPlan.m in Sources */,
+				47F64F8F1CC607C700C691F4 /* MarketActivitySendInfo.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F64F511CC606BC00C691F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F64F5A1CC606BC00C691F4 /* MarketPlanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47F64F5C1CC606BC00C691F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47F64F651CC606BC00C691F4 /* MarketPlanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47F64F571CC606BC00C691F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F64F3B1CC606BC00C691F4 /* MarketPlan */;
+			targetProxy = 47F64F561CC606BC00C691F4 /* PBXContainerItemProxy */;
+		};
+		47F64F621CC606BC00C691F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47F64F3B1CC606BC00C691F4 /* MarketPlan */;
+			targetProxy = 47F64F611CC606BC00C691F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47F64F481CC606BC00C691F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F64F491CC606BC00C691F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47F64F4D1CC606BC00C691F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47F64F4E1CC606BC00C691F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47F64F671CC606BC00C691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		47F64F681CC606BC00C691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47F64F6A1CC606BC00C691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarketPlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shishike.MarketPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47F64F6B1CC606BC00C691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarketPlan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shishike.MarketPlan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47F64F6D1CC606BC00C691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarketPlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shishike.MarketPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarketPlan.app/MarketPlan";
+			};
+			name = Debug;
+		};
+		47F64F6E1CC606BC00C691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarketPlanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shishike.MarketPlanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarketPlan.app/MarketPlan";
+			};
+			name = Release;
+		};
+		47F64F701CC606BC00C691F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarketPlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shishike.MarketPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarketPlan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		47F64F711CC606BC00C691F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarketPlanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = shishike.MarketPlanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarketPlan;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47F64F371CC606BC00C691F4 /* Build configuration list for PBXProject "MarketPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F64F671CC606BC00C691F4 /* Debug */,
+				47F64F681CC606BC00C691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47F64F691CC606BC00C691F4 /* Build configuration list for PBXNativeTarget "MarketPlan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F64F6A1CC606BC00C691F4 /* Debug */,
+				47F64F6B1CC606BC00C691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47F64F6C1CC606BC00C691F4 /* Build configuration list for PBXNativeTarget "MarketPlanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F64F6D1CC606BC00C691F4 /* Debug */,
+				47F64F6E1CC606BC00C691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47F64F6F1CC606BC00C691F4 /* Build configuration list for PBXNativeTarget "MarketPlanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47F64F701CC606BC00C691F4 /* Debug */,
+				47F64F711CC606BC00C691F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47F64F341CC606BC00C691F4 /* Project object */;
+}
